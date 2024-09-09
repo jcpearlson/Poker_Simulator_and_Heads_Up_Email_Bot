@@ -84,7 +84,7 @@ def sendEmailFinal():
     # recipients = getRecipientList()
 
     ## test list
-    recipients = ['jcpearlson@gmail.com']
+    # recipients = ['YourEmail@gmail.com']
 
     # send out the email
     send_email(recipients,'Josh <> Jimmy Heads-up Update!',body,img_path)
