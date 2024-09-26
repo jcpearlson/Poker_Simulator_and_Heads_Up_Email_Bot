@@ -81,10 +81,10 @@ def sendEmailFinal():
 
     # get email body
     body = getBody(data)
-    # recipients = getRecipientList()
+    recipients = getRecipientList()
 
     ## test list
-    # recipients = ['YourEmail@gmail.com']
+    # recipients = [getGmail()]
 
     # send out the email
     send_email(recipients,'Josh <> Jimmy Heads-up Update!',body,img_path)

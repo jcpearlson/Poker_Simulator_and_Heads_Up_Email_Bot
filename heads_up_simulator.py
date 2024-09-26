@@ -12,11 +12,31 @@ def runSimulation(data,challenge_end=3000,num_sims= 10000):
     logMsg(f'running sim with end={challenge_end} hands and {num_sims} sims')
 
     # run simulations
-    def bootstrap_simulation(player_data, n_hands=int(challenge_end - data['Hands'].sum()), n_simulations=10000):
+    def bootstrap_simulation(player_data, n_hands=int(challenge_end - data['Hands'].sum()), n_simulations=10000,target_vol=(4.00)):
+
+        # determine how much vol to add to player_data
+        current_vol = player_data.std()
+
+        # Calculate noise volatility needed to achieve the target volatility
+        addNoise = False
+        if current_vol < target_vol:
+            addNoise = True
+            noise_to_add = np.sqrt(target_vol**2 - current_vol**2)
+            logMsg(f'adding vol to simulation: Target Vol: {target_vol:4f}, Current Vol: {current_vol:4f}, Added Vol (noise): {noise_to_add:4f}')
+
+     
         cumulative_results = []
         for _ in range(n_simulations):
+
+            # generate a sample value
             sample = np.random.choice(player_data, size=n_hands, replace=True)
-            cumulative_sample = np.cumsum(sample)
+
+            # add noise into sample to increase vol to target
+            if addNoise:
+                noise = np.random.normal(0, noise_to_add, size=n_hands) 
+
+            sample_with_noise = sample+noise
+            cumulative_sample = np.cumsum(sample_with_noise)
             cumulative_results.append(cumulative_sample)
         return np.array(cumulative_results)
 
@@ -56,6 +76,10 @@ def runSimulation(data,challenge_end=3000,num_sims= 10000):
 
     # Create a graph showing Monte Carlo simulations with confidence intervals
     plt.figure(figsize=(12, 6))
+
+    # dark_background option 
+    # plt.style.use('dark_background')
+
     # Plot Josh's mean and confidence interval
     plt.plot(shifted_x,josh_mean, color='black', label="Josh's Average")
     plt.fill_between(shifted_x, josh_ci_lower, josh_ci_upper, color='blue', alpha=0.3, label="Josh's 95% CI")
@@ -85,6 +109,9 @@ def runSimulation(data,challenge_end=3000,num_sims= 10000):
 
     # Add horizontal line at y=0
     plt.axhline(y=0, color='black', linestyle='-')
+
+    # add more ticks 
+    plt.xticks(np.arange(0, challenge_end+1, 250))
 
     plt.tight_layout()
 
@@ -139,6 +166,7 @@ def getBody(data:pd.DataFrame=read_csv())->str:
               "Note: This email is automated to send once weekly, please message sender to remove yourself from list."
     )
 
-# Testing Code
+# # # Testing Code
 # data = read_csv()
-# runSimulation(data)
+# # print(data['Josh_profit_per_hand'])
+# runSimulation(data).savefig('testfig.png')
