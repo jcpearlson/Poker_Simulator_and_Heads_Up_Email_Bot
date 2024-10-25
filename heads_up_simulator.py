@@ -17,13 +17,12 @@ def runSimulation(data,challenge_end=3000,num_sims= 10000):
         # determine how much vol to add to player_data
         current_vol = player_data.std()
 
-        # Calculate noise volatility needed to achieve the target volatility
+        # Calculate noise volatility needed to achieve the target volatility only adds vol does not remove vol.
         addNoise = False
         if current_vol < target_vol:
             addNoise = True
             noise_to_add = np.sqrt(target_vol**2 - current_vol**2)
             logMsg(f'adding vol to simulation: Target Vol: {target_vol:4f}, Current Vol: {current_vol:4f}, Added Vol (noise): {noise_to_add:4f}')
-
      
         cumulative_results = []
         for _ in range(n_simulations):

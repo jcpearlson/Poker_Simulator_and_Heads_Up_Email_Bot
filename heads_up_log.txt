@@ -1,0 +1,65 @@
+22:52:05.530504:	working
+22:52:05.530835:	working2
+21:01:07.262321:	running sim with end=3000 hands and 10000 sims
+21:06:01.110859:	running sim with end=3000 hands and 10000 sims
+21:06:28.732450:	running sim with end=3000 hands and 10000 sims
+21:07:03.720403:	running sim with end=3000 hands and 10000 sims
+21:07:12.787486:	Email sent to jcpearlson@gmail.com
+21:10:51.892753:	running sim with end=3000 hands and 10000 sims
+21:11:02.062916:	Email sent to jcpearlson@gmail.com
+21:20:31.722590:	Email sent to jcpearlson@gmail.com
+21:21:37.660047:	Email sent to jcpearlson@gmail.com
+21:51:31.165004:	running sim with end=3000 hands and 10000 sims
+21:51:41.413366:	Email sent to jcpearlson@gmail.com
+21:55:15.226610:	running sim with end=3000 hands and 10000 sims
+21:55:24.281199:	Email sent to jcpearlson@gmail.com
+21:57:18.532430:	running sim with end=3000 hands and 10000 sims
+21:57:27.657463:	Email sent to jcpearlson@gmail.com,David.donoghue04@gmail.com,Jimmyzhou49@outlook.com
+22:15:43.403540:	running sim with end=3000 hands and 10000 sims
+22:15:52.175120:	Email sent to jcpearlson@wustl.edu
+13:09:21.385269:	running sim with end=3000 hands and 10000 sims
+13:09:30.495978:	Email sent to jcpearlson@wustl.edu, jcpearlson@gmail.com
+13:12:15.528851:	running sim with end=3000 hands and 10000 sims
+13:12:24.284033:	Email sent to ['jcpearlson@wustl.edu', 'jcpearlson@gmail.com']
+13:16:21.020008:	running sim with end=3000 hands and 10000 sims
+13:16:30.915276:	Email sent to ['jcpearlson@gmail.com', 'jcpearlson@wustl.edu']
+14:38:08.905583:	running sim with end=3000 hands and 10000 sims
+14:38:43.879637:	running sim with end=3000 hands and 10000 sims
+14:38:54.515280:	Email sent to ['jcpearlson@gmail.com', 'david.donoghue04@gmail.com', 'jimmyzhou49@outlook.com', 'devon.jha119@gmail.com', 'ethanhlevitt@gmail.com', 'noah.naddaff@gmail.com', 'danielmwb@gmail.com', 'sarahnamrow@gmail.com', 'me@aaronjeck.com']
+11:36:23.562334:	running sim with end=3000 hands and 10000 sims
+11:36:33.249431:	Email sent to ['jcpearlson@gmail.com']
+11:41:47.912293:	running sim with end=3000 hands and 10000 sims
+11:41:57.606628:	Email sent to ['jcpearlson@gmail.com']
+12:36:28.272550:	running sim with end=3000 hands and 10000 sims
+12:36:37.121804:	Email sent to ['jcpearlson@gmail.com']
+19:06:29.795116:	running sim with end=3000 hands and 10000 sims
+19:06:38.169130:	Email sent to ['jcpearlson@gmail.com']
+19:10:04.438135:	running sim with end=3000 hands and 10000 sims
+19:10:12.541940:	Email sent to ['jcpearlson@gmail.com', 'david.donoghue04@gmail.com', 'jimmyzhou49@outlook.com', 'devon.jha119@gmail.com', 'ethanhlevitt@gmail.com', 'noah.naddaff@gmail.com', 'danielmwb@gmail.com', 'sarahnamrow@gmail.com', 'me@aaronjeck.com']
+18:06:06.247857:	running sim with end=3000 hands and 10000 sims
+18:06:17.705668:	Email sent to ['jcpearlson@gmail.com', 'david.donoghue04@gmail.com', 'jimmyzhou49@outlook.com', 'devon.jha119@gmail.com', 'ethanhlevitt@gmail.com', 'noah.naddaff@gmail.com', 'danielmwb@gmail.com', 'sarahnamrow@gmail.com', 'me@aaronjeck.com']
+18:15:20.037511:	running sim with end=3000 hands and 10000 sims
+18:16:06.752542:	running sim with end=3000 hands and 10000 sims
+18:18:09.606956:	running sim with end=3000 hands and 10000 sims
+18:19:16.937769:	running sim with end=3000 hands and 10000 sims
+18:20:04.853535:	running sim with end=3000 hands and 10000 sims
+18:28:58.666679:	running sim with end=3000 hands and 10000 sims
+18:30:45.037574:	running sim with end=3000 hands and 10000 sims
+18:34:38.500043:	running sim with end=3000 hands and 10000 sims
+18:51:37.283293:	running sim with end=3000 hands and 10000 sims
+18:52:34.538604:	running sim with end=3000 hands and 10000 sims
+19:14:15.105383:	running sim with end=3000 hands and 10000 sims
+19:22:20.439439:	running sim with end=3000 hands and 10000 sims
+12:21:46.047268:	running sim with end=3000 hands and 10000 sims
+12:23:57.321458:	running sim with end=3000 hands and 10000 sims
+12:24:48.809827:	running sim with end=3000 hands and 10000 sims
+12:29:37.792540:	running sim with end=3000 hands and 10000 sims
+12:31:51.854230:	running sim with end=3000 hands and 10000 sims
+12:31:51.855085:	adding vol to simulation: Target Vol: 4.0, Current Vol: 1.275015823870335, Added Vol (noise): 3.7913499771031756
+12:31:53.800858:	adding vol to simulation: Target Vol: 4.0, Current Vol: 1.275015823870335, Added Vol (noise): 3.7913499771031756
+12:32:50.754570:	running sim with end=3000 hands and 10000 sims
+12:32:50.755924:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.275016, Added Vol (noise): 3.791350
+12:32:52.689184:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.275016, Added Vol (noise): 3.791350
+17:42:21.900996:	running sim with end=3000 hands and 10000 sims
+17:42:21.902219:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.665091, Added Vol (noise): 3.636959
+17:42:22.607762:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.665091, Added Vol (noise): 3.636959

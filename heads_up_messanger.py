@@ -68,7 +68,7 @@ def send_email(recipient, subject, body, attachment_path=None):
 
 
 
-def sendEmailFinal():
+def sendEmailFinal(send_email=True):
     # get current time
     current_time_name = datetime.now().time()
 
@@ -79,18 +79,19 @@ def sendEmailFinal():
     img_path = f'media/{current_time_name}_monte_carlo.png'
     runSimulation(data).savefig(img_path)
 
-    # get email body
-    body = getBody(data)
-    recipients = getRecipientList()
+    if send_email:
+        # get email body
+        body = getBody(data)
+        recipients = getRecipientList()
 
-    ## test list
-    # recipients = [getGmail()]
+        ## test list
+        # recipients = [getGmail()]
 
-    # send out the email
-    send_email(recipients,'Josh <> Jimmy Heads-up Update!',body,img_path)
+        # send out the email
+        send_email(recipients,'Josh <> Jimmy Heads-up Update!',body,img_path)
 
 
-sendEmailFinal()
+sendEmailFinal(send_email=False)
 
 # TODO make sure this email is set up as a CRON job
  
