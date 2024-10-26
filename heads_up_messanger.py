@@ -93,6 +93,7 @@ def sendEmailFinal(send_email=True):
 
 sendEmailFinal(send_email=False)
 
+
 # TODO make sure this email is set up as a CRON job
  
 # # Schedule the task to run weekly

@@ -7,6 +7,14 @@ from datetime import datetime
 from helper_functions import *
 
 
+# TODO fix to 
+# 1.	Model Per-Hand Outcomes as a Distribution: Rather than assuming a fixed mean profit per hand, this modification samples session-based winnings as random variables.
+# 2.	Bootstrapping for Session Variability: Apply bootstrapping to each session, creating a range of possible outcomes for better session-level variance.
+# 3.	Gaussian Mixture Model (GMM) for Winnings: This helps capture patterns like winning and losing streaks.
+# 4.	Monte Carlo with Resampling from Bootstrapped or GMM Distribution: Adds diversity in the sampling for more realistic simulations.
+# 5.	Confidence Interval Calculation: A more robust confidence interval based on the modified Monte Carlo outcomes.
+# TODO seperate creating plot, and other methods out for code clarity
+
 def runSimulation(data,challenge_end=3000,num_sims= 10000):
 
     logMsg(f'running sim with end={challenge_end} hands and {num_sims} sims')
@@ -116,6 +124,9 @@ def runSimulation(data,challenge_end=3000,num_sims= 10000):
 
     return plt
 
+
+
+
 def getTimeLeftDays(data:pd.DataFrame=read_csv())->int:
     
     # how long has the challenge taken so far
@@ -139,6 +150,7 @@ def getTimeLeftDays(data:pd.DataFrame=read_csv())->int:
     days_left = (3000-total_hands_played) *days_per_hand
 
     return int(math.ceil(days_left))
+
 
 def getBody(data:pd.DataFrame=read_csv())->str:
     

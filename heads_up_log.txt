@@ -63,3 +63,26 @@
 17:42:21.900996:	running sim with end=3000 hands and 10000 sims
 17:42:21.902219:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.665091, Added Vol (noise): 3.636959
 17:42:22.607762:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.665091, Added Vol (noise): 3.636959
+18:45:23.919547:	running simulation with end=3000 hands and 10000 simulations
+18:45:23.920528:	Adding volatility to simulation: Target Vol: 4.0000, Current Vol: 1.6651, Added Vol (noise): 3.6370
+18:45:24.624234:	Adding volatility to simulation: Target Vol: 4.0000, Current Vol: 1.6651, Added Vol (noise): 3.6370
+18:53:15.410940:	running simulation with end=3000 hands and 10000 simulations
+18:53:15.412008:	Adding volatility to simulation: Target Vol: 4.0000, Current Vol: 1.6651, Added Vol (noise): 3.6370
+18:54:19.324547:	running simulation with end=3000 hands and 10000 simulations
+18:54:19.325464:	Adding volatility to simulation: Target Vol: 4.0000, Current Vol: 1.6651, Added Vol (noise): 3.6370
+18:54:19.327452:	Adding volatility to simulation: Target Vol: 4.0000, Current Vol: 1.6651, Added Vol (noise): 3.6370
+19:07:30.159178:	Running simulation with end=3000 hands and 10000 simulations
+19:07:56.168890:	Running simulation with end=3000 hands and 10000 simulations
+19:08:38.415701:	Running simulation with end=3000 hands and 10000 simulations
+19:09:14.864807:	running simulation with end=3000 hands and 10000 simulations
+19:09:14.865590:	Adding volatility to simulation: Target Vol: 4.0000, Current Vol: 1.6651, Added Vol (noise): 3.6370
+19:09:14.867606:	Adding volatility to simulation: Target Vol: 4.0000, Current Vol: 1.6651, Added Vol (noise): 3.6370
+19:11:45.520093:	running simulation with end=3000 hands and 10000 simulations
+19:11:45.521019:	Adding volatility to simulation: Target Vol: 4.0000, Current Vol: 1.6651, Added Vol (noise): 3.6370
+19:11:45.522750:	Adding volatility to simulation: Target Vol: 4.0000, Current Vol: 1.6651, Added Vol (noise): 3.6370
+19:13:02.065817:	running simulation with end=3000 hands and 10000 simulations
+19:13:02.066827:	Adding volatility to simulation: Target Vol: 4.0000, Current Vol: 1.6651, Added Vol (noise): 3.6370
+19:13:02.068741:	Adding volatility to simulation: Target Vol: 4.0000, Current Vol: 1.6651, Added Vol (noise): 3.6370
+19:13:53.200156:	running sim with end=3000 hands and 10000 sims
+19:13:53.200966:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.665091, Added Vol (noise): 3.636959
+19:13:53.933213:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.665091, Added Vol (noise): 3.636959
