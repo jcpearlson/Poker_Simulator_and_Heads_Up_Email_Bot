@@ -4,7 +4,7 @@ import time
 from datetime import datetime
 
 # seperate python file to hold important info so it is hidden
-from Private_info import getGmail, getGmailPass, getRecipientList
+from Private_info import getGmail, getGmailPass, getRecipientList,getOutlook
 
 # load in the simulator
 from heads_up_simulator import runSimulation,getBody
@@ -30,8 +30,18 @@ def send_email(recipient, subject, body, attachment_path=None):
     message["To"] = ', '.join(recipient)
     message["Subject"] = subject
 
-    # Add body to the email
-    message.attach(MIMEText(body, "plain"))
+    html_body = f"""
+    <html>
+        <body style="font-family: Courier New, monospace;">
+            <pre>{body}</pre>
+        </body>
+    </html>
+    """
+
+    # Attach HTML-formatted body
+    message.attach(MIMEText(html_body, "html"))
+    # # Add body to the email
+    # message.attach(MIMEText(body, "plain"))
 
     # Attach file if provided
     if attachment_path:
@@ -68,7 +78,7 @@ def send_email(recipient, subject, body, attachment_path=None):
 
 
 
-def sendEmailFinal(send_email=True):
+def sendEmailFinal(email=True):
     # get current time
     current_time_name = datetime.now().time()
 
@@ -79,19 +89,21 @@ def sendEmailFinal(send_email=True):
     img_path = f'media/{current_time_name}_monte_carlo.png'
     runSimulation(data).savefig(img_path)
 
-    if send_email:
+    if email:
         # get email body
         body = getBody(data)
-        recipients = getRecipientList()
+
+        # recipients = getRecipientList()
 
         ## test list
-        # recipients = [getGmail()]
+        recipients = [getOutlook()]
 
         # send out the email
+        # print(body)
         send_email(recipients,'Josh <> Jimmy Heads-up Update!',body,img_path)
 
 
-sendEmailFinal(send_email=False)
+sendEmailFinal(email=True)
 
 
 # TODO make sure this email is set up as a CRON job

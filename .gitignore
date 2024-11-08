@@ -1,4 +1,7 @@
 media/
 Private_info.py
 HeadsUpData.csv
+__pycache__
 *.pyc
+test.py
+scriptDev.ipynb

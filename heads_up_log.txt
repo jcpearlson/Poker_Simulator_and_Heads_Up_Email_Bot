@@ -86,3 +86,100 @@
 19:13:53.200156:	running sim with end=3000 hands and 10000 sims
 19:13:53.200966:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.665091, Added Vol (noise): 3.636959
 19:13:53.933213:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.665091, Added Vol (noise): 3.636959
+14:37:03.858696:	running sim with end=3000 hands and 10000 sims
+14:37:03.859781:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.665091, Added Vol (noise): 3.636959
+14:37:04.575967:	adding vol to simulation: Target Vol: 4.000000, Current Vol: 1.665091, Added Vol (noise): 3.636959
+17:10:23.521812:	running sim with end=3000 hands and 10000 sims
+17:10:29.855769:	running sim with end=3000 hands and 10000 sims
+17:11:32.820049:	running sim with end=3000 hands and 10000 sims
+17:12:01.218590:	running sim with end=3000 hands and 10000 sims
+17:13:39.494855:	running sim with end=3000 hands and 10000 sims
+17:14:32.020834:	running sim with end=3000 hands and 10000 sims
+17:14:57.009454:	running sim with end=3000 hands and 10000 sims
+17:18:46.956129:	running sim with end=3000 hands and 10000 sims
+17:18:46.957141:	starting simulation with current_win_rate=0.5252981941313298 current_vol=1.665091101445199
+17:18:47.453824:	starting simulation with current_win_rate=-0.5252981941313298 current_vol=1.665091101445199
+17:51:15.445192:	running sim with end=3000 hands and 10000 sims
+17:51:15.445942:	Starting simulation with current_win_rate=0.5252981941313298 and current_vol=1.665091101445199
+17:51:15.446006:	Calculated bet_size=1.745985844406999 and win_probability=0.6504302557245933
+17:51:15.891072:	Starting simulation with current_win_rate=-0.5252981941313298 and current_vol=1.665091101445199
+17:51:15.891276:	Calculated bet_size=1.745985844406999 and win_probability=0.34956974427540666
+17:54:58.874194:	running sim with end=3000 hands and 10000 sims
+17:54:58.874938:	Starting bernoulli simulation with current_win_rate=0.5252981941313298 and current_vol=4
+17:54:58.875000:	Calculated bet_size=4.034344828191764 and win_probability=0.5651032839905723
+17:54:59.397727:	Starting bernoulli simulation with current_win_rate=-0.5252981941313298 and current_vol=4
+17:54:59.397945:	Calculated bet_size=4.034344828191764 and win_probability=0.4348967160094277
+14:19:45.160854:	running sim with end=3000 hands and 10000 sims
+14:19:45.161662:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:19:45.538443:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:23:42.545508:	running sim with end=3000 hands and 10000 sims
+14:23:42.546426:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:23:42.942480:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:26:30.125608:	running sim with end=3000 hands and 10000 sims
+14:26:30.126449:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:26:30.487195:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:27:34.886459:	running sim with end=3000 hands and 10000 sims
+14:27:34.887277:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:27:35.274472:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:28:13.071773:	running sim with end=3000 hands and 10000 sims
+14:28:13.072589:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:28:13.451768:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:28:15.943946:	Error sending email to ['jcpearlson@gmail.com']: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials 8926c6da1cb9f-4de5f8e43ecsm1014381173.125 - gsmtp')
+14:30:28.367958:	running sim with end=3000 hands and 10000 sims
+14:30:28.368871:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:30:28.780612:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:30:31.372868:	Error sending email to ['jcpearlson@wustl.edu']: (535, b'5.7.8 Username and Password not accepted. For more information, go to\n5.7.8  https://support.google.com/mail/?p=BadCredentials ca18e2360f4ac-83df50dfe49sm101642239f.38 - gsmtp')
+14:37:05.658029:	running sim with end=3000 hands and 10000 sims
+14:37:05.659092:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:37:06.051215:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:37:08.251816:	Error sending email to ['jcpearlson@wustl.edu']: (534, b'5.7.9 Application-specific password required. For more information, go to\n5.7.9  https://support.google.com/mail/?p=InvalidSecondFactor 8926c6da1cb9f-4de5f81195bsm1032583173.47 - gsmtp')
+14:38:16.173168:	running sim with end=3000 hands and 10000 sims
+14:38:16.173965:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:38:16.591596:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:38:19.935221:	Email sent to ['jcpearlson@wustl.edu']
+14:42:28.204822:	running sim with end=3000 hands and 10000 sims
+14:42:28.205547:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:42:28.586830:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:42:34.017932:	Email sent to ['jcpearlson@wustl.edu']
+14:54:46.185967:	running sim with end=3000 hands and 10000 sims
+14:54:46.186849:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:54:46.560653:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:54:50.347354:	Email sent to ['jcpearlson@wustl.edu']
+14:56:40.307438:	running sim with end=3000 hands and 10000 sims
+14:56:40.308186:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:56:40.703554:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:57:02.711320:	running sim with end=3000 hands and 10000 sims
+14:57:02.711983:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:57:03.078423:	starting normal simulation with current_win_rate=1.7084983715808202 current_vol=1.7084983715808202
+14:57:08.232588:	Email sent to ['jcpearlson@wustl.edu']
+15:01:01.758904:	running sim with end=3000 hands and 10000 sims
+15:01:01.759821:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+15:01:02.127623:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+15:01:08.361542:	Email sent to ['jcpearlson@wustl.edu']
+15:07:33.911862:	running sim with end=3000 hands and 10000 sims
+15:07:33.912684:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+15:07:34.242108:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+15:07:38.712525:	Email sent to ['jcpearlson@wustl.edu']
+15:10:01.298226:	running sim with end=3000 hands and 10000 sims
+15:10:01.298902:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+15:10:01.695669:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+15:10:08.013948:	Email sent to ['jcpearlson@wustl.edu']
+15:12:08.660236:	running sim with end=3000 hands and 10000 sims
+15:12:08.660904:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+15:12:08.994830:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+15:12:14.273197:	Email sent to ['jcpearlson@wustl.edu']
+15:18:12.765374:	running sim with end=3000 hands and 10000 sims
+15:18:12.766381:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+15:18:13.119870:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+15:18:17.330094:	Email sent to ['jcpearlson@wustl.edu']
+15:21:01.587319:	running sim with end=3000 hands and 10000 sims
+15:21:01.588568:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+15:21:01.931414:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+15:24:36.172775:	running sim with end=3000 hands and 10000 sims
+15:24:36.173482:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+15:24:36.521677:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+15:24:40.588137:	Email sent to ['jcpearlson@wustl.edu']
+15:37:48.208375:	running sim with end=3000 hands and 10000 sims
+15:37:48.209149:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+15:37:48.545334:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+15:37:52.271137:	Email sent to ['jcpearlson@wustl.edu']
