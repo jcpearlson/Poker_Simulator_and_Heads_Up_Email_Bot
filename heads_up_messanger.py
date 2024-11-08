@@ -40,8 +40,6 @@ def send_email(recipient, subject, body, attachment_path=None):
 
     # Attach HTML-formatted body
     message.attach(MIMEText(html_body, "html"))
-    # # Add body to the email
-    # message.attach(MIMEText(body, "plain"))
 
     # Attach file if provided
     if attachment_path:
@@ -93,17 +91,18 @@ def sendEmailFinal(email=True):
         # get email body
         body = getBody(data)
 
-        # recipients = getRecipientList()
+        recipients = getRecipientList()
 
         ## test list
-        recipients = [getOutlook()]
+        # recipients = [getOutlook()]
 
         # send out the email
         # print(body)
         send_email(recipients,'Josh <> Jimmy Heads-up Update!',body,img_path)
 
 
-sendEmailFinal(email=True)
+# Node change email to true to send out weekly email
+sendEmailFinal(email=False)
 
 
 # TODO make sure this email is set up as a CRON job
