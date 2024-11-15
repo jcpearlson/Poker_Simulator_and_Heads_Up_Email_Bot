@@ -183,3 +183,97 @@
 15:37:48.209149:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
 15:37:48.545334:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
 15:37:52.271137:	Email sent to ['jcpearlson@wustl.edu']
+11:56:19.877456:	running sim with end=3000 hands and 10000 sims
+11:56:19.878174:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+11:56:20.214582:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+11:56:26.148573:	Email sent to ['jcpearlson@wustl.edu']
+12:00:46.800027:	running sim with end=3000 hands and 10000 sims
+12:00:46.800612:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+12:00:47.131141:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+12:00:52.835141:	Email sent to ['jcpearlson@wustl.edu']
+12:24:50.229875:	cronTest
+12:34:43.859050:	cronTest
+12:39:15.605251:2024-11-13:	cronTest
+2024-11-13,12:43:02.073564:	cronTest
+2024-11-13, 12:44:01.295044:	cronTest
+2024-11-13, 15:25:11.789086:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 15:25:11.789760:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 15:25:12.116822:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 15:25:18.092439:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 15:25:18.092935:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 15:25:18.434102:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 15:28:58.285593:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 15:28:58.286294:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 15:28:58.751831:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 15:36:00.804833:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 15:36:00.805514:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 15:36:01.138707:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 15:36:23.245705:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 15:36:23.246157:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 15:36:23.565486:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:11:08.728255:	******************* Starting run *******************
+2024-11-13, 16:11:08.731211:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:11:08.731610:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:11:09.070482:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:21:33.888749:	******************* Starting run *******************
+2024-11-13, 16:21:33.891061:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:21:33.891380:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:21:34.230040:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:26:03.387929:	******************* Starting run *******************
+2024-11-13, 16:26:03.394734:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:26:03.395689:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:26:04.219917:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:27:03.147060:	******************* Starting run *******************
+2024-11-13, 16:27:03.150695:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:27:03.151292:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:27:03.718207:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:32:04.659909:	******************* Starting run *******************
+2024-11-13, 16:32:04.666884:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:32:04.667866:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:32:05.263352:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:32:15.656607:	Email sent to ['jcpearlson@wustl.edu']
+2024-11-13, 16:40:44.417129:	******************* Starting run *******************
+2024-11-13, 16:40:44.419953:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:40:44.420326:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:40:44.747325:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:40:50.113182:	Email sent to ['jcpearlson@wustl.edu']
+2024-11-13, 16:46:32.441584:	******************* Starting run *******************
+2024-11-13, 16:46:32.444084:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:46:32.444448:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:46:32.782200:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:46:36.328106:	Email sent to ['jcpearlson@wustl.edu']
+2024-11-13, 16:48:04.196101:	******************* Starting run *******************
+2024-11-13, 16:48:04.198575:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:48:04.198923:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:48:04.527601:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:48:09.923035:	Email sent to ['jcpearlson@wustl.edu']
+2024-11-13, 16:48:38.038811:	******************* Starting run *******************
+2024-11-13, 16:48:38.041330:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:48:38.041689:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:48:38.399309:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:48:42.792465:	Email sent to ['jcpearlson@wustl.edu']
+2024-11-13, 16:49:12.340472:	******************* Starting run *******************
+2024-11-13, 16:49:12.342841:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:49:12.343183:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:49:12.673864:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:49:15.766607:	Email sent to ['jcpearlson@wustl.edu']
+2024-11-13, 16:49:50.543200:	******************* Starting run *******************
+2024-11-13, 16:49:50.545574:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:49:50.545913:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:49:50.877576:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:49:54.983811:	Email sent to ['jcpearlson@wustl.edu']
+2024-11-13, 16:50:30.261052:	******************* Starting run *******************
+2024-11-13, 16:50:30.263453:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 16:50:30.263807:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:50:30.604183:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 16:50:34.875210:	Email sent to ['jcpearlson@wustl.edu']
+2024-11-13, 17:02:16.353010:	******************* Starting run *******************
+2024-11-13, 17:02:16.355931:	running sim with end=3000 hands and 10000 sims
+2024-11-13, 17:02:16.356321:	starting normal simulation with current_win_rate=0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 17:02:16.700405:	starting normal simulation with current_win_rate=-0.32603234320761537 current_vol=1.7084983715808202
+2024-11-13, 17:02:21.546015:	Email sent to ['jcpearlson@wustl.edu']
+2024-11-15, 01:36:06.462221:	******************* Starting run *******************
+2024-11-15, 01:36:06.465691:	running sim with end=3000 hands and 10000 sims
+2024-11-15, 01:36:06.466226:	starting normal simulation with current_win_rate=0.27082705448252853 current_vol=1.6404500756721292
+2024-11-15, 01:36:06.831098:	starting normal simulation with current_win_rate=-0.27082705448252853 current_vol=1.6404500756721292
+2024-11-15, 01:36:13.276408:	Email sent to ['jcpearlson@gmail.com', 'david.donoghue04@gmail.com', 'jimmyzhou49@outlook.com', 'devon.jha119@gmail.com', 'ethanhlevitt@gmail.com', 'noah.naddaff@gmail.com', 'danielmwb@gmail.com', 'sarahnamrow@gmail.com', 'me@aaronjeck.com', 'd.grafstein@wustl.edu']

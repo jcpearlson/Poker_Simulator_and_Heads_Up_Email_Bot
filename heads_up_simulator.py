@@ -242,8 +242,3 @@ def getBody(data:pd.DataFrame=read_csv())->str:
               "Note: This email is automated to send once weekly, please message sender to remove yourself from list.\n\n"
               f"{ weatherReport if weatherReport!= 'Error' else ' '}"
     )
-
-# # # Testing Code
-# data = read_csv()
-# # print(data['Josh_profit_per_hand'])
-# runSimulation(data).savefig('testfig.png')

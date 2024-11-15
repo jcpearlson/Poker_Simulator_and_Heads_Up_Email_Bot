@@ -1,7 +1,22 @@
+# media folder
 media/
+
+# private info like recipient list ext
 Private_info.py
+
+# data from a sample heads up match
 HeadsUpData.csv
+
+# logger file
+heads_up_log.txt
+# python
 __pycache__
 *.pyc
+
+# testing scripts
 test.py
 scriptDev.ipynb
+
+# cron test
+cronTest.py
+cron.output

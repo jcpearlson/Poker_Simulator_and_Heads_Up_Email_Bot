@@ -1,10 +1,11 @@
+# generics
 import pandas as pd
 import schedule
 import time
 from datetime import datetime
 
-# seperate python file to hold important info so it is hidden
-from Private_info import getGmail, getGmailPass, getRecipientList,getOutlook
+# separate python file to hold important info so it is hidden
+from Private_info import getGmail, getGmailPass, getRecipientList,getOutlook,getPathToProject
 
 # load in the simulator
 from heads_up_simulator import runSimulation,getBody
@@ -29,11 +30,23 @@ def send_email(recipient, subject, body, attachment_path=None):
     message["From"] = sender_email
     message["To"] = ', '.join(recipient)
     message["Subject"] = subject
-
+    
     html_body = f"""
     <html>
         <body style="font-family: Courier New, monospace;">
-            <pre>{body}</pre>
+            <pre style="font-size: 10px;">{body}</pre>
+        </body>
+    </html>
+    """
+
+    # adding weather report
+    weather_report = body.find('63130')
+    if weather_report != -1:
+        html_body = f"""
+    <html>
+        <body style="font-family: Courier New, monospace;">
+            <pre>{body[:weather_report]}</pre>
+            <pre style="font-size: 8px;">{body[weather_report:]}</pre>
         </body>
     </html>
     """
@@ -54,13 +67,15 @@ def send_email(recipient, subject, body, attachment_path=None):
             encoders.encode_base64(part)
             
             # Add header with file name
+            fileName = 'Projected_Results.png'
             part.add_header(
                 "Content-Disposition",
-                f"attachment; filename= {os.path.basename(attachment_path)}",
+                f"attachment; filename= {fileName}",
             )
             
             # Attach the part to the email
             message.attach(part)
+
         except Exception as e:
             logMsg(f"Failed to attach file: {e}")
 
@@ -76,41 +91,38 @@ def send_email(recipient, subject, body, attachment_path=None):
 
 
 
-def sendEmailFinal(email=True):
+def sendEmailFinal(email=True,testEmail=False):
+    logMsg("******************* Starting run *******************")
+
     # get current time
     current_time_name = datetime.now().time()
 
     # read in csv
     data = read_csv()
 
-    # create img path for image and save down
-    img_path = f'media/{current_time_name}_monte_carlo.png'
+    # get project path
+    base = getPathToProject()
+
+    # create img path for image and save 
+    img_path = f'{base}Heads-Up-Emails/media/{current_time_name}_monte_carlo.png'
     runSimulation(data).savefig(img_path)
 
     if email:
         # get email body
         body = getBody(data)
 
-        recipients = getRecipientList()
-
-        ## test list
-        # recipients = [getOutlook()]
+        # if test email then getOutlook(personal email) else normal list
+        recipients = [getOutlook()] if testEmail else getRecipientList()
 
         # send out the email
-        # print(body)
-        send_email(recipients,'Josh <> Jimmy Heads-up Update!',body,img_path)
+        send_email(recipients,'Weather Report + Josh <> Jimmy Heads-up Update!',body,img_path)
 
 
-# Node change email to true to send out weekly email
-sendEmailFinal(email=False)
+if __name__ == '__main__':
+    """
+    Params:
+    - email:bool                     True to send email, false for no email.
+    - (optional) testEmail:bool      True to send email only to me, false to send to group. Default is false.
+    """
+    sendEmailFinal(email=True,testEmail=False)
 
-
-# TODO make sure this email is set up as a CRON job
- 
-# # Schedule the task to run weekly
-# schedule.every().week.do(sendEmailFinal)
-
-# # Daemon process to keep it running
-# while True:
-#     schedule.run_pending()
-#     time.sleep(60)  # Check every minute
